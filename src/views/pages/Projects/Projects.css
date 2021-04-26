@@ -1,0 +1,101 @@
+.project-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    padding: 1em;
+    border: 4px solid;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+div.title-wrapper {
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+i.fa-toggle {
+    margin-left: auto;
+    color: grey;
+    font-size: 1.5em;
+    transition: 500ms;
+}
+
+i.fa-toggle:hover {
+    color: #F3738C;
+    transition: 500ms;
+}
+
+i.fa-toggle-closed {
+    transform: rotate(45deg);
+}
+i.fa-toggle-open {
+    transform: rotate(0);
+    transform: translateX(1px)
+}
+
+.expand {
+    max-height: 100em;
+    transition: 1s;
+}
+div.project-description.collapse {
+    max-height: 0em;
+    transition: 500ms;
+}
+
+div.project-view {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+div.project-view > button {
+    border: 2px solid #363636;
+    background-color: white;
+    padding: 0.5em;
+}
+
+div.project-view > button:hover {
+    border: 2px solid #F3738C;
+    color: #F3738C;
+    background-color: white;
+    padding: 0.5em;
+}
+
+
+div.project-view.expand {
+    max-height: 100em;
+}
+div.project-view.collapse {
+    max-height: 0em;
+}
+div.project-view.expand > button {
+    opacity: 1;
+    transition: 500ms;
+    transition-delay: 100ms;
+}
+div.project-view.collapse > button {
+    opacity: 0;
+}
+
+.project-item:nth-child(even) {
+    border-color: orange;
+}
+.project-item:nth-child(odd) {
+    border-color: #43A1DB;
+}
+
+h3.project-title {
+    margin: 0!important;
+    padding: 0.2em 0 0 0;
+    color: #363636;
+}
+.project-item > p {
+    margin: 0;
+    color: #363636;
+}

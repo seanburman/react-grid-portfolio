@@ -1,0 +1,30 @@
+@media only screen and (max-width: 40em) {
+    .grid-container-col-1 {
+        margin-top: 8em!important;
+    }
+    .grid-container-col-2 {
+        margin-top: 8em!important;
+    }
+}
+
+.grid-container-col-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    align-content: start;
+    row-gap: 1em;
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+.grid-container-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    align-content: start;
+    gap: 2em 2em;
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+

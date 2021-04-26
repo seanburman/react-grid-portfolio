@@ -1,0 +1,24 @@
+.about-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 9em;
+    height: 9em;
+    border-radius: 6px;
+    transition: 500ms;
+    color: white;
+    font-weight: 500;
+}
+
+.about-item:nth-child(odd) {
+    justify-self: end;
+}
+.about-item:nth-child(even) {
+    justify-self: start;
+}
+
+i.about {
+    color: white;
+}

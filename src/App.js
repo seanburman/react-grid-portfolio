@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+import Nav from './views/navigation/Nav';
 import './App.css';
+import './views/navigation/Nav.css'
+import './assets/global-styles.css'
+import { useSelector } from 'react-redux';
+import About from './views/pages/About/About';
+import Projects from './views/pages/Projects/Projects';
+import Clients from './views/pages/Clients/Clients';
+import Contact from './views/pages/Contact/Contact';
 
 function App() {
+
+  const view = useSelector(state => state.views)
+  const { name } = view[0]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="grid-container">
+      <div className="grid-item header work-sans black">
+      <p className="em2 mb-0">Sean Burman</p>
+      software developer</div>
+      <Nav />
+      <div className="grid-item main">
+      {
+        {
+            'About': <About />,
+            'Projects': <Projects />,
+            'Clients': <Clients />,
+            'Contact': <Contact />,
+        }[name]
+      }
+      </div>
+
+      <div className="grid-item footer">
+        <a href="https://github.com/seanburman" target="blank">
+          <i className="fab fa-github footer-icon" />
         </a>
-      </header>
+        <a href="https://www.linkedin.com/in/seanburman/" target="blank">
+          <i className="fab fa-linkedin-in footer-icon" />
+        </a>
+      </div>
     </div>
   );
 }

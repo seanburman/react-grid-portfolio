@@ -1,0 +1,65 @@
+button.form-button {
+    padding: 0.5em 0 0.5em 0;
+    background-color: #f3738c;
+    color: white;
+    font-size: 1em;
+    font-family: Ubuntu;
+    font-weight: 500;
+    align-self: center;
+}
+
+button.form-button:hover {
+    opacity: 0.8;
+}
+
+div.form-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+div.field {
+    vertical-align: middle;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 30em;
+    margin: 0;
+    padding-right: 0.5em;
+}
+
+input, textarea, button.form-button {
+    width: 100%;
+    border-radius: 4px;
+    border-width: 0;
+}
+
+textarea {
+    height: 6em;
+    resize: none;
+}
+
+input, textarea {
+    background-color: #bbbbbb;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+
+textarea {
+    margin-bottom: 1em
+}
+
+label {
+    text-align: left;
+    color: #1D1D1D;
+    padding-top: 0.5em;
+}
+
+h2.message-sent {
+    color: #54af48
+}

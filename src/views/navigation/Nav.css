@@ -1,0 +1,121 @@
+@media only screen and (max-width: 40em) {
+
+    .nav {
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.1);
+    }
+    .footer {
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px -3px 2px 0px rgba(0,0,0,0.1);
+    }
+    
+    .nav > button > i {
+        font-size: 1.5em!important;
+    }
+
+    .nav > button {
+        color: black!important;
+        border-width: 0!important;
+    }
+}
+
+@keyframes hammer {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(45deg);}
+    100% {transform: rotate(0deg);}
+}
+
+@keyframes phone {
+    0% {transform: translate(0px, 0px);}
+    5% {transform: translate(-2px, 0px);}
+    10% {transform: translate(0px, 0px);}
+    15% {transform: translate(2px, 0px);}
+    20% {transform: translate(0px, 0px);}
+    25% {transform: translate(1px, 0px);}
+    30% {transform: translate(2px, 0px);}
+    35% {transform: translate(1px, 0px);}
+    40% {transform: translate(0px, 0px);}
+    45% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 0px);}
+    55% {transform: translate(0px, 0px);}
+    60% {transform: translate(0px, 0px);}
+    65% {transform: translate(0px, 0px);}
+    70% {transform: translate(0px, 0px);}
+    75% {transform: translate(0px, 0px);}
+    80% {transform: translate(0px, 0px);}
+    85% {transform: translate(0px, 0px);}
+    90% {transform: translate(0px, 0px);}
+    95% {transform: translate(0px, 0px);}
+    100% {transform: translate(0px, 0px);}
+    
+}
+
+@keyframes handshake {
+    0% {transform: translate(0px, 0px);}
+    10% {transform: translate(0px, -2px);}
+    20% {transform: translate(0px, -4px);}
+    30% {transform: translate(0px, -6px);}
+    40% {transform: translate(0px, -8px);}
+    50% {transform: translate(0px, -6px);}
+    60% {transform: translate(0px, -5px);}
+    70% {transform: translate(0px, -4px);}
+    80% {transform: translate(0px, -3px);}
+    90% {transform: translate(0px, -2px);}
+    100% {transform: translate(0px, -1px);}
+}
+
+button.nav-button {
+    width: 6em;
+    height: 6em;
+    border-width: 0 2px 0 0;
+    border-color: rgb(54, 54, 54, 0.3);
+    background-color: transparent;
+    color: white;
+    transition: 500ms;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+  }
+button.nav-button:hover {
+    color: black;
+    transition: 1s;
+}
+
+button.nav-button:hover > i.fa-hammer {
+    animation-name: hammer;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: #FF8811;
+    transition: 250ms;
+    
+}
+button.nav-button:hover >i.fa-user{
+    animation-name: handshake;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: #2178AE;
+    transition: 250ms;
+}
+
+button.nav-button:hover >i.fa-handshake{
+    animation-name: handshake;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: #F9C310;
+}
+button.nav-button:hover >i.fa-phone{
+    animation-name: phone;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    color: #10A83D;
+}
+
+i.fas {
+font-size: 2em;
+color: #363636;
+padding-bottom: 0.25em;
+transition: 250ms;
+}
+

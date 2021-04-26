@@ -1,0 +1,63 @@
+.project-snippet-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-snippet-nav > button {
+    border-width: 0;
+    padding: 0.5em;
+    background-color: transparent;
+}
+
+.project-snippet-nav > button:hover, button:hover > i {
+    color: #F3738C
+}
+
+.project-snippet-nav > button > i {
+    vertical-align: sub;
+    margin-right: 0.25em;
+    font-size: 1.75em;
+}
+
+
+.snippet-container {
+    display: flex;
+
+}
+
+.snippet-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1em;
+    color: #363636;
+    border: 2px solid orange;
+}
+
+.snippet-header > h4 {
+    margin: 0;
+}
+
+.technologies {
+    display: flex;
+    justify-content: center;
+}
+
+.technologies > h4 {
+    color: #363636;
+    width: 100%;
+    margin: 0;
+}
+
+.technologies-icon {
+    font-size: 2em;
+    margin: 0 0.25em 0 0.25em;
+    vertical-align: super;
+}
+
+.hz-rule {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(128, 128, 128, 0.5);
+}
