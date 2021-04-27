@@ -14,11 +14,11 @@ function App() {
   const { name } = view[0]
   return (
     <div className="grid-container">
-      <div className="grid-item header work-sans black">
-      <p className="em2 mb-0">Sean Burman</p>
+      <div className="header work-sans black">
+      <p className="em2 no-margin">Sean Burman</p>
       software developer</div>
       <Nav />
-      <div className="grid-item main">
+      <div className="main">
       {
         {
             'About': <About />,
@@ -29,7 +29,7 @@ function App() {
       }
       </div>
 
-      <div className="grid-item footer">
+      <div className="footer">
         <a href="https://github.com/seanburman" target="blank">
           <i className="fab fa-github footer-icon" />
         </a>

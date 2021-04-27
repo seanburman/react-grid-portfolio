@@ -1,3 +1,26 @@
+@media only screen and (max-width: 40em) {
+    .grid-container-contact {
+        margin-top: 6em!important;
+        margin-bottom: 2em!important;
+    }
+
+}
+
+.grid-container-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10em 1fr;
+    align-items: start;
+    align-content: start;
+    width: 100%;
+    margin-top: 1.5em;
+}
+
 .contact-info {
-    margin-bottom: 0
+    margin-bottom: 0;
+    grid-row: 1/2;
+}
+
+.contact-wrapper {
+    grid-row: 2/3;
 }

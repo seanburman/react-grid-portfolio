@@ -2,7 +2,7 @@ import { changeView } from "../../../helpers/viewHelpers";
 import './Clients.css'
 export default function Clients() {
     return (
-        <div className="grid-container-col-1">
+        <div className="grid-container-col-1 fade-in">
             <div className="grid-container-client">
                 <div className="client-description-container">
                 <p className="client-description">Catherine Clark Connects is a boutique mental health consulting firm that specializes in helping individuals and organizations proactively address mental health, create a safe space for vulnerable conversations, and build more meaningful, fulfilled lives.</p>
