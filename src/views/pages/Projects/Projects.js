@@ -49,7 +49,7 @@ export default function Projects(){
              />
             <ProjectItem
             name="FlexGrid"
-            title="Flexbox / Grid / React Portfolio"
+            title="React / Redux / Grid Portfolio"
             text="With a focus on symmetry and minimalism, I built this portfolio using React to elaborate on the first iteration of my portfolio..."
              />
             <ProjectItem

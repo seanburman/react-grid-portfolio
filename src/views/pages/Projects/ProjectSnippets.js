@@ -7,9 +7,10 @@ const reactIcon = <i className="fab fa-react technologies-icon blue" />
 const cssIcon = <i className="fab fa-css3-alt technologies-icon blue" />
 const htmlIcon = <i className="fab fa-html5 technologies-icon orange" />
 const nodeIcon = <i className="fab fa-node-js technologies-icon green" />
+const reduxIcon = <img src="/img/redux.png" alt="react rudex" className="redux-icon"/>
 
 function ProjectSnippet(
-    {title, children, react=false, css=false, html=false, mongo=false, node=false, 
+    {title, children, react=false, redux= false, css=false, html=false, mongo=false, node=false, 
         link, repo}
     ) {
         
@@ -51,6 +52,7 @@ function ProjectSnippet(
             <div className="hz-rule"></div>
             <div className="technologies"><h4>Stack</h4>
             {react && reactIcon}
+            {redux && reduxIcon}
             {css && cssIcon}
             {html && htmlIcon}
             {node && nodeIcon}
@@ -73,10 +75,10 @@ export function Concept(){
 
 export function FlexGrid(){
     return (
-        <ProjectSnippet react css html node
-        title="Flex / Grid / React Portfolio"
+        <ProjectSnippet react redux css html node
+        title="React / Redux / Grid Portfolio"
         link="https://www.seanburman.ca"
-        repo="https://github.com/seanburman/react-portfolio"
+        repo="https://github.com/seanburman/react-grid-portfolio"
         >
         With a focus on symmetry and minimalism, I built this portfolio using React to elaborate on the first iteration of my portfolio. The interface is designed to be intuitive and easy to navigate while maintaining a quirky style that borders between professional and playful. 
         </ProjectSnippet>
