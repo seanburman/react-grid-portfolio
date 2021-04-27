@@ -86,7 +86,7 @@ export const experience =
         <p className="ubuntu skill-description">
             From customer retainment and de-escalation to employee performance enhancement and resolution, I have real-world experience with expert diplomacy adaptable to virtually any circumstance. If you need front-line communication, I'm your greatest asset.
         </p>
-    <p className ="skills">Exellent Customer Service<i className="fas fa-hand-holding blue"></i></p>
+    <p className ="skills">Excellent Customer Service<i className="fas fa-hand-holding blue"></i></p>
         <p className="ubuntu skill-description">
         With over ten years of experience working in customer service and management in hopitality, I have considerable diplomacy and negotiation skills. With a keen intuition for delivering exceptional experiences for clients with high standards and working with large teams, I am an ideal candidate for client facing positions as well as those requiring significant interpersonal communication abilities.
     </p>

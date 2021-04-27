@@ -98,7 +98,7 @@ export default function Contact() {
             
             <p className="ubuntu contact-info" style={paragraph}>
             <h2 className="blue contact-header" style={centre}>Contact Me</h2>
-            <a href="tel:15879141797">+1 587 914 1797</a><br /><br />
+            <a href="tel:15879141797">+1 587 914 1797</a><br />
             <a href="mailto:sean@seanburman.ca">sean@seanburman.ca</a>
             
             </p><br />
