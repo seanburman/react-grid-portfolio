@@ -63,7 +63,7 @@ export function Concept(){
     return (
         <ProjectSnippet react css html node
         title="Concept Portfolio"
-        link="https://www.seanburman.ca"
+        link="https://concept-portolfio.netlify.app/"
         repo="https://github.com/seanburman/react-portfolio"
         >
         I wrote my first React portfolio project as a concept for a single page application with a continuous user experience. My goal was to achieve a sense of continuity and fluidity between states of the application that are more or less identitical between a mobile and desktop view.
