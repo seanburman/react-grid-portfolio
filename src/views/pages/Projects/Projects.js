@@ -3,7 +3,7 @@ import '../../../assets/global-styles.css'
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { viewProject } from '../../../features/projects/projectsSlice'
-import { CCC, Concept, FlexGrid, Future } from './ProjectSnippets'
+import { CCC, Concept, FlexGrid, Future, Nathalie } from './ProjectSnippets'
 
 function ProjectItem({name, title, text}) {
 
@@ -43,6 +43,12 @@ export default function Projects(){
     return (
         <div className="grid-container-col-1 fade-in">
             <ProjectItem
+            name="Nathalie"
+            title="Nathalie Anne Design"
+            text="I worked with Nathalie Anne Design to develop their own work portfolio to spec
+            from customized wire frames..."
+             />
+            <ProjectItem
             name="Concept"
             title="Concept Portfolio"
             text="I wrote my first React portfolio project as a concept for a single page application with a continuous user experience..."
@@ -69,6 +75,7 @@ export default function Projects(){
         <React.Fragment>
         {
             {
+                'Nathalie': <Nathalie />,
                 'Concept': <Concept />,
                 'FlexGrid': <FlexGrid />,
                 'CCC': <CCC />,

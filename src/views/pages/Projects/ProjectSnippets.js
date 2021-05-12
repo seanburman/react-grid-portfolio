@@ -61,6 +61,20 @@ function ProjectSnippet(
     )
 }
 
+export function Nathalie(){
+    return (
+        <ProjectSnippet react css html
+        title="Concept Portfolio"
+        link="https://nathalieannedesign.com"
+        repo="https://github.com/seanburman/nathalie-anne"
+        >
+        I worked with Nathalie Anne Design to develop their own work portfolio to spec
+        from customized wire frames they designed themself. This is an ongoing project that
+        will soon feature a reusable blog app written from scratch that implements React, Redux,
+        and MongoDB.
+        </ProjectSnippet>
+    )
+}
 export function Concept(){
     return (
         <ProjectSnippet react css html node
