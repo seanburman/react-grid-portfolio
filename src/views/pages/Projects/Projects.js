@@ -60,7 +60,7 @@ export default function Projects(){
              />
             <ProjectItem
             name="CCC"
-            title="Web Development Contract"
+            title="Catherine Clark Connects"
             text="Catherine Clark Connects is an ongoing web contract project for the trauma counselor and author, Catherine Clark..."
              />
             <ProjectItem 
