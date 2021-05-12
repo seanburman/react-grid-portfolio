@@ -64,7 +64,7 @@ function ProjectSnippet(
 export function Nathalie(){
     return (
         <ProjectSnippet react css html
-        title="Concept Portfolio"
+        title="Nathalie Anne Design"
         link="https://nathalieannedesign.com"
         repo="https://github.com/seanburman/nathalie-anne"
         >
