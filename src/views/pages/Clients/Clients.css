@@ -49,6 +49,8 @@
 }
 
 .logo-container {
+    display: flex;
+    align-items: center;
     height: 100%;
     grid-row-start: 1;
     grid-column-start: 3;
